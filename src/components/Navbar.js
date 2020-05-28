@@ -8,8 +8,8 @@ class Navbar extends Component {
           show:false,
           menuItems : [
           {name : "O mnie", path:"About"},
-          {name : "Umiejętności", path:"Skills"},
           {name : "Projekty", path:"Projects"},
+          {name : "Umiejętności", path:"Skills"},
           {name : "Kontakt", path:"Contact"}]
         };
       }
@@ -50,7 +50,7 @@ class Navbar extends Component {
                     to={item.path}
                     spy={true}
                     smooth={true}
-                    offset= {item.path === "Contact" ? -300 : -200}
+                    offset= {item.path === "Contact" ? -300 : -50}
                     duration={500}
                     onClick={this.toggleShow}
                     

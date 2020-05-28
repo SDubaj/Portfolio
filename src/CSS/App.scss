@@ -18,6 +18,9 @@ body{
     overflow-x: hidden; 
     max-width: 100vw;
 }
+hr{
+    width:10px;
+}
 .Header{
     //background: linear-gradient(to bottom, #888888 10%, #000000 88%);
     height:100vh;
@@ -135,10 +138,13 @@ body{
     justify-self: center;
     align-self: center;
   }
+  a:hover{
+      text-decoration: none;
+      color:white;
+  }
   img{
     width: 70%;  
     height: 20em;
-    padding:40px;
     border:2px solid grey;
     }
     .projectInfo{
@@ -169,7 +175,7 @@ body{
 }
 .heading{
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5em;
+    font-size: 3em;
     text-align: center;
     padding:50px;
     
@@ -194,11 +200,14 @@ body{
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #353838 5%, #768d87 100%);
-	background-color:#353838;
+    background-color:#353838;
+    text-decoration: none;
 }
 .myButton:active {
 	position:relative;
-	top:1px;
+    top:1px;
+    
+    text-decoration: none;
 }
 
 .Contact{
@@ -208,16 +217,20 @@ body{
     text-align:center;
 }
 .contact-content{
-    display:inline-flex;
+    display:flex;
+    
+    flex-wrap: wrap;
     text-align: center;
     left:0;
     right:0;
     margin:0 auto;
     justify-content: center;
     padding-bottom: 80px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     p{
         padding: 20px;
+        flex: 0 40%;
+  /*demo*/
     }
     a{
         text-decoration: none;
@@ -231,10 +244,52 @@ body{
 
 .footer{
     text-align:center;
-    background-color: #888888;  
+    //background-color: #888888;  
     height:50px;
+    color:black;
+    padding:10px;
+    border-top:1px solid black;
 }
 
 .active{
     text-decoration: underline;
+}
+.frontSkills{
+    display:flex;
+
+    flex-wrap: wrap;
+    text-align: center;
+    left:0;
+    right:0;
+    margin:0 auto;
+    justify-content: center;
+    padding-bottom: 80px;
+    font-size: 1.5rem;
+    position: relative;
+    padding:5%;
+}
+.frontSkills::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height:50%;
+    left: 0;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+}
+.skill {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    padding: 20px;
+        flex: 0 30%;
+}
+.icon {
+    font-size:5rem;
+    color:#555454;
+}
+.skillText {
+    display: block;
 }

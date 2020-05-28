@@ -18,6 +18,7 @@ function Projects ()  {
                                 service = {project.service}
                                 imageSrc = {project.imageSrc}
                                 url={project.url}
+                                urlGit={project.urlGit}
                         ></Project>
                     ))}
             </div>

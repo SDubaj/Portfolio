@@ -16,7 +16,7 @@ class Project extends Component {
                     <h3>{this.props.title}</h3>
                     <span>{this.props.service}</span><br/>
                     <a href={this.props.url}  className="myButton" target="_blank" >DEMO</a>
-                    <a href="https://google.com" className="myButton" target="_blank">KOD</a>
+                    <a href={this.props.urlGit} className="myButton" target="_blank">KOD</a>
                     <hr/>
                 </div>
 
