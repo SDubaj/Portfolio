@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 
@@ -8,7 +8,7 @@ function Header() {
             <div className="title-background">
 
                 <div className="heading-logo">
-                    <img src="/logo1.png" width="150px" height="150px" alt="logo"/>
+                    <img src="logo1.png" width="150px" height="150px" alt="logo"/>
 
                         <div className="title" >
 

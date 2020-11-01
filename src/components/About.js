@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 function About () {
@@ -7,7 +7,7 @@ function About () {
                 
             <h2 className="heading"><Fade bottom cascade>O mnie.<hr/></Fade></h2>
             <div className='about-content'>
-             <img src="/AboutImg.JPG"  alt='about image' className="aboutImg" ></img>
+             <img src="AboutImg.jpg"  alt='about image' className="aboutImg" ></img>
                 <Fade bottom>
                 
             

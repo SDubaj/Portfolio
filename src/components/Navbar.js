@@ -60,7 +60,7 @@ class Navbar extends Component {
         
         return (
         <div className={`nav-bar ${this.state.hiddenNavBar ? "visible" : ""}`} onScroll={this.handleScroll}>
-            <div className="logoPic"><img src="/logo1.png" height="55px" width="55px" alt="logo" /></div>
+            <div className="logoPic"><img src="logo1.png" height="55px" width="55px" alt="logo" /></div>
             <div className="logo">
                 <span className="logoName"> Sebastian Dubaj</span>
                 <span className="logoTitle">Portfolio</span>

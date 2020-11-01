@@ -10,13 +10,13 @@ class Project extends Component {
 
                 
                 <div className="projectInfo">
-                <a href={this.props.url} target="_blank">
+                <a href={this.props.url} target="_blank" rel="noopener noreferrer">
                     <img src={this.props.imageSrc}  alt={this.props.title}></img>
                 </a>
                     <h3>{this.props.title}</h3>
                     <span>{this.props.service}</span><br/>
-                    <a href={this.props.url}  className="myButton" target="_blank" >DEMO</a>
-                    <a href={this.props.urlGit} className="myButton" target="_blank">KOD</a>
+                    <a href={this.props.url}  className="myButton" target="_blank" rel="noopener noreferrer" >DEMO</a>
+                    <a href={this.props.urlGit} className="myButton" target="_blank" rel="noopener noreferrer">KOD</a>
                     <hr/>
                 </div>
 

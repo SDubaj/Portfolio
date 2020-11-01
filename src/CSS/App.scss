@@ -12,15 +12,14 @@ $font-header: "Hammersmith One", sans-serif;
 .container-fluid{
     padding:0;
 }
+body, html { overflow-x:hidden; max-width: 100%; }
 
 body{
     min-height:100vh;
     overflow-x: hidden; 
     max-width: 100vw;
 }
-hr{
-    width:10px;
-}
+
 .Header{
     //background: linear-gradient(to bottom, #888888 10%, #000000 88%);
     height:100vh;
@@ -145,6 +144,7 @@ hr{
   img{
     width: 70%;  
     height: 20em;
+    padding:40px;
     border:2px solid grey;
     }
     .projectInfo{
@@ -256,7 +256,6 @@ hr{
 }
 .frontSkills{
     display:flex;
-
     flex-wrap: wrap;
     text-align: center;
     left:0;
@@ -284,7 +283,10 @@ hr{
     text-align: center;
     width: 120px;
     padding: 20px;
-        flex: 0 30%;
+    flex: 0 30%;
+        @media screen and (max-width: 900px) {
+            flex: 0 50%;
+        }
 }
 .icon {
     font-size:5rem;

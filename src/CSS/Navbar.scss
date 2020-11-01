@@ -88,6 +88,7 @@ $font-header: "Hammersmith One", sans-serif;
         box-sizing:border-box;
         position: absolute;
         transition: left .3s ease-in-out;
+        height: 100vh;
     }
 }
 .list{
@@ -101,7 +102,7 @@ $font-header: "Hammersmith One", sans-serif;
         list-style-type: none;
         margin-top:25px;
         color:black;
-        background-color: grey;
+        background-color: #f0efef;
         text-align: center;
         width:100%;
         position: relative;
@@ -109,7 +110,13 @@ $font-header: "Hammersmith One", sans-serif;
         border-top:2px solid black;
         border-bottom:2px solid black;
         transition: left .3s ease-in-out;
+        height:60%;
+        font-weight: 500;
+        vertical-align: middle;
         }  
+        li{
+        padding-top:30px;
+        }
 }
 .nav-item{
     justify-content: center;

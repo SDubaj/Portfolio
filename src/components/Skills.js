@@ -1,26 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import   {faLaptopCode}  from "@fortawesome/free-solid-svg-icons";
-import   {faReact,faSass,faCss3Alt,faHtml5,faBootstrap,faJs,faNpm,faGit,faYarn,faAdobe,faDatabase,faPhp,faJava, faCss3} from "@fortawesome/free-brands-svg-icons";
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import   {faLaptopCode}  from "@fortawesome/free-solid-svg-icons";
+//yimport   {faReact,faSass,faCss3Alt,faHtml5,faBootstrap,faJs,faNpm,faGit,faYarn,faAdobe,faDatabase,faPhp,faJava, faCss3} from "@fortawesome/free-brands-svg-icons";
 const SkillIcons = [
-    {icon : "/htmlicon.png", name:"HTML5"},   
-    {icon : "/css3.png", name:"CSS3"},   
-    {icon : "/bootstrap.png", name:"Bootstrap"},
-    {icon : "/sass.png", name:"Sass"},  
-    {icon : "/react.png", name:"React + Redux"},   
-    {icon : "/js.png", name:"JavaScript"}
+    {icon : "htmlicon.png", name:"HTML5"},   
+    {icon : "css3.png", name:"CSS3"},   
+    {icon : "bootstrap.png", name:"Bootstrap"},
+    {icon : "sass.png", name:"Sass"},  
+    {icon : "react.png", name:"React + Redux"},   
+    {icon : "js.png", name:"JavaScript"}
 ]
 const OtherSkills = [
-    {icon : "/mysql.png", name:""},   
-    {icon : "/tsql.png", name:""},   
-    {icon : "/java4.png", name:""},   
-    {icon : "/github.png", name:"Github"},   
-    {icon : "/npm.png", name:"Npm"},
-    {icon : "/photoshop.png", name:"Photoshop"},
-    {icon : "/linux.png", name:"Linux"},
-    {icon : "/slack.png", name:"Linux"}
+    {icon : "mysql.png", name:""},   
+    {icon : "tsql.png", name:""},   
+    {icon : "java4.png", name:""},   
+    {icon : "github.png", name:"Github"},   
+    {icon : "npm.png", name:"Npm"},
+    {icon : "photoshop.png", name:"Photoshop"},
+    {icon : "linux.png", name:"Linux"},
+    {icon : "slack.png", name:"Linux"}
 ]
 const skillsMap=SkillIcons.map(item =>(
     <div className="skill">
