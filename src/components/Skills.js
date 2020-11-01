@@ -20,7 +20,7 @@ const OtherSkills = [
     {icon : "npm.png", name:"Npm"},
     {icon : "photoshop.png", name:"Photoshop"},
     {icon : "linux.png", name:"Linux"},
-    {icon : "slack.png", name:"Linux"}
+    {icon : "slack.png", name:""}
 ]
 const skillsMap=SkillIcons.map(item =>(
     <div className="skill">
